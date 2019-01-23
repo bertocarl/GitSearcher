@@ -9,12 +9,14 @@ import { ProfileService } from './service/profile.service';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HighlightDirective } from './highlight.directive';
+import { KeysPipe } from './keys.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    HighlightDirective
+    HighlightDirective,
+    KeysPipe
   ],
   imports: [
     BrowserModule,
