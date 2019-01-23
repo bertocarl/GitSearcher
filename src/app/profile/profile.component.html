@@ -1,11 +1,9 @@
-
-
 <h3 class="title">GitSearcher</h3>
 <br>
 <div class="container">
 	<form action="" class="search-form">
 		<div class="form-group">
-			<span class ="input">
+			<span class="input">
 				<input type="text" class="form-control" placeholder="Insert Username here" [(ngModel)]="username" name="username" (keyup)="findProfile()">
 			</span>
 
@@ -48,7 +46,7 @@
 									<p class="clearfix">
 										{{repo.name}} <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-warning pull-right">View this project on github</a>
 									</p>
-									<p>{{repo.description}}</p>
+									<p appHighlight>{{repo.description}}</p>
 								</div>
 							</div>
 						</div>
