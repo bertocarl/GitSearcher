@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Open Sans Condensed', cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  .search-form {
+      padding-top: 10px;
+    align-self: center;
+  }
+  h5{
+    font-family: 'Open Sans Condensed', cursive;
+    font-size: 54px;
+    text-align: center;
+  }
