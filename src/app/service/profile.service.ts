@@ -10,18 +10,15 @@ export class ProfileService {
   private clientsecret = '2eb08d690c48951f82d92bb1f67ff5d6a165591b';
 
   constructor(private http: Http) {
-    console.log('service is now ready!');
     this.username = 'bertocarl';
   }
 
   getProfileInfo() {
-    // tslint:disable-next-line:max-line-length
     return this.http.get('https://api.github.com/users/' + this.username + '?client_id=' + this.clientid + '&client_secret=' + this.clientsecret)
       .map(res => res.json());
   }
 
   getProfileRepos() {
-    // tslint:disable-next-line:max-line-length
     return this.http.get('https://api.github.com/users/' + this.username + '/repos?client_id=' + this.clientid + '&client_secret=' + this.clientsecret)
       .map(res => res.json());
   }
