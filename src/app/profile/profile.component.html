@@ -5,7 +5,10 @@
 <div class="container">
 	<form action="" class="search-form">
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Insert Username here" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+			<span class ="input">
+				<input type="text" class="form-control" placeholder="Insert Username here" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+			</span>
+
 		</div>
 	</form>
 	<div *ngIf="profile">
@@ -39,7 +42,7 @@
 							<p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on github</a></p>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h3 class="panel-title">Repos</h3>
+									<h3 class="panel-title">Repository</h3>
 								</div>
 								<div class="panel-body" *ngFor="let repo of repos">
 									<p class="clearfix">
