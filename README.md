@@ -1,12 +1,12 @@
 # gitSearcher Application
 
-This is an app that lets users search through Github for other users and also view their repositories. This is implemented using the Github API. This app was generated with Angular CLI version 7.1.4.
+This is an app that lets users search through Github for other users and also view their repositories. This is implemented using the Github API. This app was generated with Angular CLI version 7.2.1.
 
 
 ## Project description
 
-This is an application allows the users to search in Github for other users and also view their repositories.
-This is implemented using the Github API. This app was generated with Angular CLI version 7.2.1
+This is an application allows the users to search in Github for other users and also view their repositories. Upon searching the user is able to view the usernames repositories.
+
 
 ## AUTHOR
 @bertocarl -ALBERT CARLOS OMWARE
